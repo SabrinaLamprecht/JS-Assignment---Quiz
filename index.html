@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Welcome screen -->
+    <div id="welcome-container">
+      <h1><strong>Welcome to the JavaScript Fundamentals Quiz!</strong></h1>
+      <p>
+        This quiz will assess your knowledge of JavaScript basics such as
+        variables, arrays, loops, functions, and the DOM.
+      </p>
+      <img
+        src="https://www.mertsarica.com/wp-content/uploads/2016/04/Hack4career-36.jpg"
+        alt="Image of JS"
+      />
+      <button id="start-button">Start Quiz</button>
+    </div>
+
+    <!--Quiz section-->
+    <div id="quiz-container" class="hidden">
+      <div id="question-container"></div>
+      <div id="options-container"></div>
+      <button id="next-button">Next Question</button>
+    </div>
+
+    <!--Score section-->
+    <div id="score-container" class="hidden">
+      <h2>Your Score:</h2>
+      <p id="score"></p>
+      <button id="restart-button">Restart Quiz</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
