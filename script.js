@@ -64,8 +64,8 @@ let score = 0;
 function startQuiz() {
   welcomeContainer.classList.add("hidden"); // Hide welcome screen
   quizContainer.classList.remove("hidden"); // Show quiz
-  loadQuestion(); // Load first question
-  nextButton.disabled = true;
+  loadQuestion(); // Function created (below) to load first question
+  nextButton.disabled = true; // this hides the Next Button until navigating to the next screen;
 }
 
 // This is used in the Quiz page - loads questions
